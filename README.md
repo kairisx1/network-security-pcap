@@ -17,3 +17,7 @@ C 기반 PCAP API를 사용하여 TCP 패킷의 주요 정보를 출력하는 �
 ### 1. 컴파일
 
 gcc sniff_improved.c -o tcp_sniff -lpcap
+
+### 2. 실행
+
+sudo ./tcp_sniff
